@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="VIEWPORT" content="with=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>NEI Website</title>
+</head>
+
+<body>
+    <!-- ---------------------------about Us Header ----------------------------------->
+    <section class="Sub-header">
+        <nav>
+            <a href="index.html"><img src="image/neilogo.png" alt=""></a>
+            <div class="nav-link" id="navLinks">
+                <i class="fa fa-arrows-alt" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">AboutUs</a></li>
+                    <li><a href="OurBenifits.html">Benifits</a></li>
+                    <li><a href="Login.html">Login</a></li>
+                    <li><a href="ContactUs.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-align-justify" onclick="showMenu()"></i>
+        </nav>
+        <h1>Life Events</h1>
+    </section>
+    <!-- -------------------------------about us Content---------------------------- -->
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>Life Events</h1>
+                <h2>What You Need to Know</h2>
+                <p>Life changes quickly! Here are highlights of how to update your benefits coverage and related benefits information if you move, get married, get divorced, grow your family, leave employment, or die. For details, or if you have a life event
+                    not described here, </p>
+                <p>Health, Pension, and Annuity and 401(k) Plans Benefits if you:</p>
+                <p>
+                    <li>If you Move.</li>
+                </p>
+                <p>Complete and sign the address change form, and follow the instructions on the form to fax or mail it to the Benefits Office.</p>
+                <p>
+                    <li>If you have a Child or Get Married.</li>
+                </p>
+                <p>
+                    <li>If you get Devorced.</li>
+                </p>
+                <p>
+                    <li>If you Die.</li>
+                </p>
+                <p>Health Plan for Active Members If you die while you’re covered by the Health Plan, your surviving spouse and/or dependent child(ren) will continue to be covered through the period you would have been covered under Plan provisions. See
+                    the Health Plan Summary Plan Description for details. Retirees, If you die while you’re covered under the Health Plan as a retiree, your surviving spouse may be able to continue coverage after your death. See the Health Plan Summary
+                    Plan Description for details. If you die, your spouse, child, or y</p>
+                <p>
+                    <li>If you Stop working or your house are reduced.</li>
+                </p>
+                <h2> To Learn More about Benefits</h2><br><a href="OurBenifits.html" class="hero-btn red-btn">NEI Benefits</a>
+            </div>
+        </div>
+    </section>
+    <!-- ------------------------ <footer>--------------- -->
+    <section class="footer ">
+        <h2>To know more Information about Our Benefits</h2>
+        <a href=" ContactUs.html " class="hero-btn ">Contact Us</a>
+
+    </section>
+
+    <!-- ----------------------- JavaScript Code style for (toggle) menu bar  -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>

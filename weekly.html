@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="VIEWPORT" content="with=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="Favicone Icon" href="favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Weekly Income Benefits</title>
+  </head>
+
+  <body>
+    <!-- ---------------------------about Us Header ----------------------------------->
+    <section class="Sub-header">
+        <nav>
+            <a href="index.html"><img src="image/neilogo.png" alt=""></a>
+            <div class="nav-link" id="navLinks">
+                <i class="fa fa-arrows-alt" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">AboutUs</a></li>
+                    <li><a href="OurBenifits.html">Benifits</a></li>
+                    <li><a href="Login.html">Login</a></li>
+                    <li><a href="ContactUs.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-align-justify" onclick="showMenu()"></i>
+        </nav>
+        <h1>Weekly Income</h1>
+    </section>
+    <!-- -------------------------------about us Content---------------------------- -->
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>Weekly Income Benefits</h1>
+                <p>A broken foot. A difficult pregnancy. Back spasms from a car accident. There are many reasons
+                  why you may be out of work because of an illness or injury and need income replacement. That’s
+                  where the Weekly Income Benefit helps out.<br>
+                  If you become totally disabled and can’t work, the Plan provides a weekly payment to you for up to 26 weeks. Benefits are payable when the Plan receives written proof that you are totally disabled due to an injury, illness, or pregnancy and require the active care of a duly licensed physician.<br>
+                  Active members are enrolled in the Plan automatically; spouses and children are not eligible.</p>
+
+                <h4>What you need to do</h4>
+                <p><li>Contact the Benefits Office if you become disabled and can’t work.</li>
+                <li>Submit a claim form to the Benefits Office.</li></p>
+                <h2> Find More Benefits</h2><br><a href="OurBenifits.html" class="hero-btn red-btn">NEI Benefits</a>
+            </div>
+
+    </section>
+    <!-- ------------------------ <footer>--------------- -->
+    <section class="footer ">
+        <h2>To know more Information about Our Benefits</h2>
+        <a  href=" ContactUs.html " class="hero-btn ">Contact Us</a>
+
+    </section>
+
+    <!-- ----------------------- JavaScript Code style for (toggle) menu bar  -->
+    <script>
+     var navLinks = document.getElementById("navLinks");
+     function showMenu(){
+       navLinks.style.right ="0";
+     }
+     function hideMenu(){
+       navLinks.style.right ="-200px";
+     }
+    </script>
+  </body>
+</html>

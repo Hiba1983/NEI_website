@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="VIEWPORT" content="with=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="Favicone Icon" href="favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>About NEI</title>
+</head>
+
+<body>
+    <!-- ---------------------------about Us Header ----------------------------------->
+    <section class="Sub-header">
+        <nav>
+            <a href="index.html"><img src="image/neilogo.png" alt=""></a>
+            <div class="nav-link" id="navLinks">
+                <i class="fa fa-arrows-alt" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">AboutUs</a></li>
+                    <li><a href="OurBenifits.html">Benifits</a></li>
+                    <li><a href="Login.html">Login</a></li>
+                    <li><a href="ContactUs.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-align-justify" onclick="showMenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+    </section>
+
+    <!-- -------------------------------about us Content---------------------------- -->
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>National Elevator Industry Benefit Plans </h1>
+                <p>The National Elevator Industry Pension, Health and Annuity and 401(k) Retirement Plan Once you are eligible for coverage, benefits are provided to you, your spouse, and eligible children. If you’re new to coverage, you must enroll yourself
+                    and your family.<br> The Plan also provides financial protection for you and your family through short-term disability benefits and life and accident insurance coverage.<br> National Elevator Industry Nei Benefit Plans serves customers
+                    in the United States.</p>
+                <br>
+                <a href="LifeEvents.html" class="hero-btn red-btn">LEARN MORE</a>
+            </div>
+    </section>
+    <!-- ------------------------ Resorces and Forms  section Style--------------- -->
+    <section class="cta ">
+        <h1>RESOURCES </h1>
+        <h3><a href="https://www.neibenefits.org/resources/forms/">Forms</a></h3>
+        <p>Login your Health, Pension & 401k Requierd forms </p>
+        <h3><a href="https://www.neibenefits.org/resources/plan-documents/">Plan Documents</a></h3>
+        <p>Download more information and Documents </p>
+        <h3><a href="https://www.neibenefits.org/resources/faqs/">FAQs</a></h3>
+        <p>Important Updates to the Health Benefit Plan</p>
+        <h2>Reading Your Annual Retirement Statement</h2>
+        <p>Watch a brief tutorial on how to read your annual retirement statement and get the most from this valuable benefit summary.<br></p>
+        <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/t4vKPhjcMZg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+        <iframe src="https://www.youtube.com/embed/TPQoCvxVW7s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>"
+        <p>Learn how you can add to your retirement income and save on current taxes by contributing to our 401(k) savings plan.</p>
+        </div>
+        <!-- width="640" height="360" -->
+    </section>
+
+    <!-- ------------------------ <footer>--------------- -->
+    <section class="footer ">
+        <h2>To know more Information about Our Benefits</h2>
+        <a href=" ContactUs.html " class="hero-btn ">Contact Us</a>
+
+    </section>
+
+    <!-- ----------------------- JavaScript Code style for (toggle) menu bar  -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>

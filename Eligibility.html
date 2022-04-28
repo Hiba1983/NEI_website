@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="VIEWPORT" content="with=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="Favicone Icon" href="favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Elgibilty Benefits</title>
+</head>
+
+<body>
+    <!-- ---------------------------Header ----------------------------------->
+    <section class="Sub-header">
+        <nav>
+            <a href="index.html"><img src="image/neilogo.png" alt=""></a>
+            <div class="nav-link" id="navLinks">
+                <i class="fa fa-arrows-alt" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">AboutUs</a></li>
+                    <li><a href="OurBenifits.html">Benifits</a></li>
+                    <li><a href="Login.html">Login</a></li>
+                    <li><a href="ContactUs.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-align-justify" onclick="showMenu()"></i>
+        </nav>
+        <h1>Health Insurance Benefits<br> EB & Cobra</h1>
+    </section>
+    <!-- -------------------------------about us Content---------------------------- -->
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>Eligibility</h1>
+                <p>Generally, if you are a probationary apprentice, you are eligible for coverage on the first day of the calendar month after you complete 600 hours of employment. Once you are hired, the hours requirement may be met by completing 100 hours
+                    in each of six 30-day periods. The six 30-day periods don’t have to be consecutive; however, they must be completed within 18 months of your hire date.</p>
+
+                <h4>Who the Plan covers</h4>
+                <p>Active members:<br> Once you meet initial eligibility requirements, you, your spouse, and your children under age 26 are all eligible for Plan coverage. If your child is not able to support him/herself due to disability, your child’s coverage
+                    will continue after he/she reaches age 26 as long as you have coverage. Proof of disability is required. You must submit proof within 30 days of the child’s 26th birthday.<br> Retirees:
+                    <br>You are eligible for Retiree coverage under the Plan if you are eligible as an active member when you retire and you have at least 1,700 hours reported to the Plan in the 60 months before you retire.<br>
+                </p>
+                <h4>Life Insurance</h4>
+                <p>If you die while an active member, or as an eligible retiree receiving a disability pension and you are under age 65, the Health Benefit Plan pays a life insurance benefit of $40,000 to your beneficiary automatically.This benefit is paid
+                    through the Plan’s insurance policy with the Amalgamated Life Insurance Company. (Eligible retirees must be receiving a disability pension from the National Elevator Industry Pension Plan or the IUEC Officers and Employees Pension
+                    Plan and be under age 65 to be eligible for a Plan benefit.)</p>
+                <p>To name or update your beneficiary, complete and notarize and submit it to the Benefits Office.<br><br>
+                    <a href="https://www.neibenefits.org/wp-content/uploads/2020/04/enrollmt-10-2020.pdf" class="hero-btn red-btn">Enroll Now</a></p>
+                <br>
+                <h2> To Find More Benefits</h2><a href="OurBenifits.html" class="hero-btn red-btn">NEI Benefits</a>
+            </div>
+
+    </section>
+    <!-- ------------------------ <footer>--------------- -->
+    <section class="footer ">
+        <h2>To know more Information about Our Benefits</h2>
+        <a href=" ContactUs.html " class="hero-btn ">Contact Us</a>
+
+    </section>
+
+    <!-- ----------------------- JavaScript Code style for (toggle) menu bar  -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>

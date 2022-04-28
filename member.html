@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="VIEWPORT" content="with=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="Favicone Icon" href="favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>Member NEI </title>
+</head>
+
+<body>
+    <!-- ---------------------------about Us Header ----------------------------------->
+    <section class="Sub-header">
+        <nav>
+            <a href="index.html"><img src="image/neilogo.png" alt=""></a>
+            <div class="nav-link" id="navLinks">
+                <i class="fa fa-arrows-alt" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">AboutUs</a></li>
+                    <li><a href="OurBenifits.html">Benifits</a></li>
+                    <!-- <li><a href="LifeEvents.html">LIFE EVENTS</a></li> -->
+                    <li><a href="Login.html">Login</a></li>
+                    <li><a href="ContactUs.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-align-justify" onclick="showMenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+        <!-- <a href="#" class="hero-btn">LEARN MORE</a> -->
+    </section>
+
+    <!-- -------------------------------about us Content---------------------------- -->
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>We are NEI</h1>
+                <p>large company </p>
+                <a href="#" class="hero-btn red-btn">LEARN MORE</a>
+            </div>
+            <div class="about-col">
+                <img src="image/Jobs.jpg" alt="">
+            </div>
+
+    </section>
+
+
+    <!-- ------------------------ <footer>--------------- -->
+    <section class="footer ">
+        <h2>To know more Information about Our Benefits</h2>
+        <a  href=" ContactUs.html " class="hero-btn ">Contact Us</a>
+
+    </section>
+
+    <!-- ----------------------- JavaScript Code style for (toggle) menu bar  -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>
